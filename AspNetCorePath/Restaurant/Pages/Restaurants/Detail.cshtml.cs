@@ -10,8 +10,6 @@ namespace Restaurant.Pages.Restaurants
 {
     public class DetailModel : PageModel
     {
-        [TempData]
-        public string Message { get; set; }
         public Core.Restaurant Restaurant { get; set; }
 
         private IRestaurantData _restaurantData;

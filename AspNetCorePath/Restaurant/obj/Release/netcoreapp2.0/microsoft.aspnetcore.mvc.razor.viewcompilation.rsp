@@ -6,7 +6,10 @@ C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Contact.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Error.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Index.cshtml
+--file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Restaurants\Detail.cshtml
+--file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Restaurants\Edit.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Restaurants\List.cshtml
+--file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\Restaurants\NotFound.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\_Layout.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\_ValidationScriptsPartial.cshtml
 --file=C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\Pages\_ViewImports.cshtml
