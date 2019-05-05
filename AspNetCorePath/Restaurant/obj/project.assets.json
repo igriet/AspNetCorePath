@@ -4746,6 +4746,29 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "Restaurant.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Restaurant.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Core.dll": {}
+        }
+      },
+      "Restaurant.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Restaurant.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Data.dll": {}
+        }
       }
     }
   },
@@ -13020,12 +13043,24 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "Restaurant.Core/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Core/Restaurant.Core.csproj",
+      "msbuildProject": "../Restaurant.Core/Restaurant.Core.csproj"
+    },
+    "Restaurant.Data/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Data/Restaurant.Data.csproj",
+      "msbuildProject": "../Restaurant.Data/Restaurant.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.9",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Restaurant.Core >= 1.0.0",
+      "Restaurant.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13057,7 +13092,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj": {
+              "projectPath": "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj"
+            },
+            "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Data\\Restaurant.Data.csproj": {
+              "projectPath": "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Data\\Restaurant.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
