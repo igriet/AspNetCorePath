@@ -42,6 +42,7 @@ namespace Restaurant.Pages.Restaurants
             if (ModelState.IsValid)
             {
                 Restaurant = _restaurantData.Update(Restaurant);
+                return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
             }
             Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
             return Page();
