@@ -18,9 +18,14 @@ namespace Restaurant.Pages.Restaurants
             _restaurantData = data;
         }
 
-        public void OnGet(int restaurantId)
+        public IActionResult OnGet(int restaurantId)
         {
             Restaurant = _restaurantData.GetById(restaurantId);
+            if (Restaurant == null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            return Page();
         }
     }
 }
