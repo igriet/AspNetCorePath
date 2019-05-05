@@ -10,3 +10,5 @@ C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\obj\Debug\netcoreapp2.0\R
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\obj\Debug\netcoreapp2.0\Restaurant.Data.csproj.CopyComplete
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\obj\Debug\netcoreapp2.0\Restaurant.Data.dll
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\obj\Debug\netcoreapp2.0\Restaurant.Data.pdb
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\bin\Debug\netcoreapp2.0\Restaurant.Data.runtimeconfig.json
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant.Data\bin\Debug\netcoreapp2.0\Restaurant.Data.runtimeconfig.dev.json
