@@ -27,6 +27,11 @@ namespace Restaurant.Data
                    select r;
         }
 
+        public Core.Restaurant GetById(int id)
+        {
+            return restaurants.FirstOrDefault(r => r.Id == id);
+        }
+
         public IEnumerable<Core.Restaurant> GetRestaurantByName(string name = null)
         {
             return from r in restaurants
