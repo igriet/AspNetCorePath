@@ -39,7 +39,11 @@ namespace Restaurant.Pages.Restaurants
 
         public IActionResult OnPost()
         {
-            Restaurant = _restaurantData.Update(Restaurant);
+            if (ModelState.IsValid)
+            {
+                Restaurant = _restaurantData.Update(Restaurant);
+            }
+            Cuisines = _htmlHelper.GetEnumSelectList<CuisineType>();
             return Page();
         }
     }
