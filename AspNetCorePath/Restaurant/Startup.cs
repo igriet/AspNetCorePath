@@ -23,7 +23,9 @@ namespace Restaurant
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
-            services.AddMvc();
+            services.AddMvc().AddSessionStateTempDataProvider();
+
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,9 +40,9 @@ namespace Restaurant
             {
                 app.UseExceptionHandler("/Error");
             }
-
             app.UseStaticFiles();
-
+            app.UseCookiePolicy();
+            app.UseSession();
             app.UseMvc();
         }
     }

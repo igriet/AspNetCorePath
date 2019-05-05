@@ -10,5 +10,6 @@ namespace Restaurant.Data
         IEnumerable<Core.Restaurant> GetRestaurantByName(string name);
         Core.Restaurant GetById(int id);
         Core.Restaurant Update(Core.Restaurant updatedRestaurant);
+        Core.Restaurant Add(Core.Restaurant newRestaurant);
     }
 }
