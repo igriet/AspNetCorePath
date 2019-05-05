@@ -1,0 +1,16 @@
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.deps.json
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.runtimeconfig.json
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.runtimeconfig.dev.json
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.dll
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.pdb
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.Core.dll
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.Data.dll
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.Core.pdb
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\bin\Debug\netcoreapp2.0\Restaurant.Data.pdb
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.csprojAssemblyReference.cache
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.csproj.CoreCompileInputs.cache
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.AssemblyInfoInputs.cache
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.AssemblyInfo.cs
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.csproj.CopyComplete
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.dll
+C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.pdb

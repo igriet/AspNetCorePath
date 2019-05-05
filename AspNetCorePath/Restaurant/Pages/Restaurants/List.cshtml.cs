@@ -15,6 +15,7 @@ namespace Restaurant.Pages.Restaurants
         private readonly IRestaurantData _restaurantData;
 
         public string Message { get; set; }
+        public IEnumerable<Core.Restaurant> Restaurants { get; set; }
 
         public ListModel(IConfiguration configuration,IRestaurantData data)
         {
@@ -25,6 +26,7 @@ namespace Restaurant.Pages.Restaurants
         public void OnGet()
         {
             Message = _configuration["Message"];//"Hola desde cshtml";
+            Restaurants = _restaurantData.GetAll();
         }
     }
 }
