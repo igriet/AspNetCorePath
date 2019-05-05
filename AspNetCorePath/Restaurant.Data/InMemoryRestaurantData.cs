@@ -39,5 +39,19 @@ namespace Restaurant.Data
                    orderby r.Name
                    select r;
         }
+
+        public Core.Restaurant Update(Core.Restaurant updatedRestaurant)
+        {
+            Core.Restaurant restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
+
+            if (restaurant != null)
+            {
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
+            }
+
+            return restaurant;
+        }
     }
 }

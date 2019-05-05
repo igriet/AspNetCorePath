@@ -9,5 +9,6 @@ namespace Restaurant.Data
         IEnumerable<Core.Restaurant> GetAll();
         IEnumerable<Core.Restaurant> GetRestaurantByName(string name);
         Core.Restaurant GetById(int id);
+        Core.Restaurant Update(Core.Restaurant updatedRestaurant);
     }
 }
