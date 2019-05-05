@@ -14,4 +14,3 @@ C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restau
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.csproj.CopyComplete
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.dll
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\Restaurant.pdb
-C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
