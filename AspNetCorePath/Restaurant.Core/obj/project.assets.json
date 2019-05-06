@@ -676,23 +676,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\igrie\\.nuget\\packages\\": {},
+    "C:\\Users\\igriet gonzalez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj",
+      "projectUniqueName": "C:\\Users\\igriet gonzalez\\Documents\\GitHub\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj",
       "projectName": "Restaurant.Core",
-      "projectPath": "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj",
-      "packagesPath": "C:\\Users\\igrie\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\obj\\",
+      "projectPath": "C:\\Users\\igriet gonzalez\\Documents\\GitHub\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\Restaurant.Core.csproj",
+      "packagesPath": "C:\\Users\\igriet gonzalez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\igriet gonzalez\\Documents\\GitHub\\AspNetCorePath\\AspNetCorePath\\Restaurant.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\igrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\igriet gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
