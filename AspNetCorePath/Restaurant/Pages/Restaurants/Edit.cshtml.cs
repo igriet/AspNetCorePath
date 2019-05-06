@@ -56,6 +56,7 @@ namespace Restaurant.Pages.Restaurants
             else
                 Restaurant = _restaurantData.Add(Restaurant);
             TempData["Message"] = "Restaurant saved!!";
+            _restaurantData.Commit();
             return RedirectToPage("./Detail", new { restaurantId = Restaurant.Id });
         }
     }
