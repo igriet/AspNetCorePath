@@ -27,6 +27,14 @@ namespace Restaurant.Data
             return newRestaurant;
         }
 
+        public Core.Restaurant Delete(int id)
+        {
+            var restaurant = this.GetById(id);
+            if (restaurant != null)
+                restaurants.Remove(restaurant);
+            return restaurant;
+        }
+
         public IEnumerable<Core.Restaurant> GetAll()
         {
             return from r in restaurants

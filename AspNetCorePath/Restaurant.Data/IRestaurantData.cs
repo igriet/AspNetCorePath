@@ -11,6 +11,6 @@ namespace Restaurant.Data
         Core.Restaurant GetById(int id);
         Core.Restaurant Update(Core.Restaurant updatedRestaurant);
         Core.Restaurant Add(Core.Restaurant newRestaurant);
-
+        Core.Restaurant Delete(int id);
     }
 }
