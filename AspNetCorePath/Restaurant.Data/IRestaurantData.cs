@@ -12,5 +12,6 @@ namespace Restaurant.Data
         Core.Restaurant Update(Core.Restaurant updatedRestaurant);
         Core.Restaurant Add(Core.Restaurant newRestaurant);
         Core.Restaurant Delete(int id);
+        int Commit();
     }
 }

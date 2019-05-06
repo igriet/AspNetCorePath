@@ -27,6 +27,11 @@ namespace Restaurant.Data
             return newRestaurant;
         }
 
+        public int Commit()
+        {
+            return 0;
+        }
+
         public Core.Restaurant Delete(int id)
         {
             var restaurant = this.GetById(id);
@@ -57,7 +62,7 @@ namespace Restaurant.Data
 
         public Core.Restaurant Update(Core.Restaurant updatedRestaurant)
         {
-            Core.Restaurant restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
+            Core.Restaurant restaurant = restaurants.FirstOrDefault(r => r.Id == updatedRestaurant.Id);
 
             if (restaurant != null)
             {
