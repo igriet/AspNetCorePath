@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,9 +46,23 @@ namespace Restaurant
             {
                 app.UseExceptionHandler("/Error");
             }
+
+            app.Use(SayHelloMiddleware);
+
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseMvc();
+        }
+
+        private RequestDelegate SayHelloMiddleware(RequestDelegate nextProcessInPipeline)
+        {
+            return async ctx =>
+            {
+                if (ctx.Request.Path.StartsWithSegments("/hello"))
+                    await ctx.Response.WriteAsync("Hello World from custom middleware");
+                else
+                    await nextProcessInPipeline(ctx);
+            };
         }
     }
 }
