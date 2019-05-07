@@ -47,7 +47,6 @@ namespace Restaurant
             }
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            app.UseSession();
             app.UseMvc();
         }
     }
