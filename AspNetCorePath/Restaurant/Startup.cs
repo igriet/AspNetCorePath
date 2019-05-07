@@ -29,7 +29,8 @@ namespace Restaurant
                 options.UseSqlServer(Configuration.GetConnectionString("RestaurantDb"));
             });
 
-            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
+            //services.AddScoped<IRestaurantData, SqlRestaurantData>();
+            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
             services.AddMvc().AddSessionStateTempDataProvider();
 
             services.AddSession();
@@ -52,6 +53,7 @@ namespace Restaurant
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseSession();
             app.UseMvc();
         }
 
