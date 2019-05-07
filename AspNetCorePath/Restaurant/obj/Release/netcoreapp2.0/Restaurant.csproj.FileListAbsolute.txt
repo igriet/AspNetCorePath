@@ -15,3 +15,20 @@ C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Rest
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.dll
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.pdb
 C:\Repos\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.deps.json
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.runtimeconfig.json
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.runtimeconfig.dev.json
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.dll
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.pdb
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.Core.dll
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.Data.dll
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.Core.pdb
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\bin\Release\netcoreapp2.0\Restaurant.Data.pdb
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.csprojAssemblyReference.cache
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.AssemblyInfoInputs.cache
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.AssemblyInfo.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.csproj.CopyComplete
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.dll
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Restaurant\obj\Release\netcoreapp2.0\Restaurant.pdb

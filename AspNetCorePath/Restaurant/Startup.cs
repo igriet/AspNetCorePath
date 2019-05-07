@@ -28,7 +28,8 @@ namespace Restaurant
             {
                 options.UseSqlServer(Configuration.GetConnectionString("RestaurantDb"));
             });
-            services.AddScoped<IRestaurantData, SqlRestaurantData>();
+
+            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
             services.AddMvc().AddSessionStateTempDataProvider();
 
             services.AddSession();
