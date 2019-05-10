@@ -23,3 +23,4 @@ C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Bethanys
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\BethanysPieShop.pdb
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\BethanysPieShop.csproj.CopyComplete
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\BethanysPieShop.csprojAssemblyReference.cache
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
