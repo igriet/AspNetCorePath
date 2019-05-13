@@ -30,6 +30,7 @@ namespace BethanysPieShop
             });
             //services.AddTransient<IPieRepository, MockPieRepository>();For mock data, aka. In Memory data
             services.AddTransient<IPieRepository, PieRepository>();
+            services.AddTransient<IFeedbackRepository, FeedbackRepository>();
             services.AddMvc();
         }
 

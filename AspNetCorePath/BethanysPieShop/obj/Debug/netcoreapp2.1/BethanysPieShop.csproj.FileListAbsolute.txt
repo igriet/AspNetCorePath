@@ -24,3 +24,6 @@ C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\Bethanys
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\BethanysPieShop.csproj.CopyComplete
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\BethanysPieShop.csprojAssemblyReference.cache
 C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\Razor\Views\Home\Detail.g.cshtml.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\Index.g.cshtml.cs
+C:\Users\igriet gonzalez\Documents\GitHub\AspNetCorePath\AspNetCorePath\BethanysPieShop\obj\Debug\netcoreapp2.1\Razor\Views\Feedback\FeedbackComplete.g.cshtml.cs
